@@ -4,6 +4,7 @@ import Introduction from "./sections/introduction";
 import { Carousel } from "react-responsive-carousel";
 import styles from "react-responsive-carousel/lib/styles/carousel.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Footer from "@/components/layouts/footer";
 
 const Services = () => {
   return (
@@ -40,7 +41,7 @@ const Services = () => {
                   eligendi rerum tempore modi cum est, repellat velit aut
                   repudiandae, odio adipisci libero maxime!
                 </p>
-                </div>
+              </div>
             </Carousel>
           </div>
         </section>
@@ -99,6 +100,7 @@ const Services = () => {
       </div>
       <br />
       <hr />
+      <Footer />
     </>
   );
 };
