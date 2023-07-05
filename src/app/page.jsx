@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/free-brands-svg-icons";
+
 import Image from "next/image";
 import Navbar from "@/components/layouts/navbar";
 import NavbarMobile from "@/components/layouts/navbarMobile";
@@ -7,17 +9,18 @@ import Services from "./home/section/services";
 import Clients from "./home/section/clients";
 import Carrousel from "./home/section/carrousel";
 import Formulaire from "./home/section/formulaire";
+
 export default function () {
   return (
     <>
       <Navbar />
       <NavbarMobile />
       <Home />
-      <Footer />
       <Services/>
       <Clients/>
       <Carrousel/>
       <Formulaire/>
+      <Footer />
     </>
   );
 }
