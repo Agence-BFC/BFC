@@ -1,9 +1,15 @@
-import Image from 'next/image'
+import Header from "./header";
+import Main from "./main";
+import Footer from "@/components/layouts/footer";
+import { FontAwesomeIcon } from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Hello dev-bollo</h1>
+    <main className="">
+      <Header />
+      <Main />
+      <Footer />
     </main>
-  )
+  );
 }
+
