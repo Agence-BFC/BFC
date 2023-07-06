@@ -27,7 +27,6 @@ export let styles = {
     background: "white",
     padding: "1.5em 2.3em 0",
     fontSize: "1.15em",
-   
   },
   bmMorphShape: {
     fill: "#373a47",
