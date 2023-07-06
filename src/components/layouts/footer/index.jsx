@@ -1,5 +1,5 @@
-import FooterMobile from "./mobile/footerMobile";
-import FooterDesktop from "./desktop/footerDesktop";
+import FooterMobile from "./mobile";
+import FooterDesktop from "./desktop";
 
 const Footer = () => {
   return (
