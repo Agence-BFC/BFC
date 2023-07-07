@@ -2,8 +2,10 @@
 
 import Image from "next/image";
 import MenuNav from "./menuNav";
-import { faEnvelope, faToggleOff } from "@fortawesome/free-solid-svg-icons";
+import { faMoon, faSun, faToggleOff } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import mode from "./darkmode";
+
 
 const NavbarMobile = () => {
   return (
@@ -22,9 +24,11 @@ const NavbarMobile = () => {
         </button>
       </div>
       <div className="flex flex-row items-center justify-center">
-        <button>
-          <FontAwesomeIcon icon={faToggleOff} size="xl" />
+        <button >
+          <FontAwesomeIcon className="pr-2" icon={faSun} size="xl"/>
+          <FontAwesomeIcon  icon={faToggleOff} size="xl" />
         </button>
+
       </div>
     </nav>
   );

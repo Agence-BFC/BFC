@@ -6,7 +6,7 @@ const Introduction = () => {
       <div className="flex flex-row w-full justify-center">
         <Image src="/images/25336.svg" width={400} height={20} alt="Code" />
       </div>
-      <h2 className="flex w-full justify-center py-2 text-amber-900 text-2xl">
+      <h2 className="flex w-full justify-center py-3 text-amber-900 text-2xl">
         Introduction :
       </h2>
       <section className="flex flex-row items-start">

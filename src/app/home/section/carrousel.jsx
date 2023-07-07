@@ -1,41 +1,48 @@
+"use client";
+
+import React from "react";
 import { Carousel } from "react-responsive-carousel";
-import"react-responsive-carousel/lib/styles/carousel.min.css"
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Carrousel = () => {
   return (
     <>
-      <Carousel
-        showArrows={true}
-        onChange={onChange}
-        onClickItem={onClickItem}
-        onClickThumb={onClickThumb}
-      >
-        <div>
-          
-          <img src="assets/1.jpeg" />
-          <p className="legend">Legend 1</p>
+      <div>
+        <Carousel className="-z-2  bg-yellow-500 opacity-80">
+          <div>
+            <img 
+              src="images/logos/logotest.svg"
+              alt="logoentreprise"
+            />
+            <p className="legend">Entrepise A</p>
+          </div>
+          <div>
+            <img src="images/logos/logotest.svg" />
+            <p className="legend">Entreprise B</p>
+          </div>
+          <div>
+            <img src="images/logos/logotest.svg" />
+            <p className="legend">Entreprise C</p>
+          </div>
+          <div>
+            <img src="images/logos/logotest.svg" />
+            <p className="legend">Entreprise D</p>
+          </div>
+          <div>
+            <img src="images/logos/logotest.svg" />
+            <p className="legend">Entreprise E</p>
+          </div>
+          <div>
+            <img src="images/logos/logotest.svg" />
+            <p className="legend">Entreprise F</p>
+          </div>
+        </Carousel>
+        <div className="flex flex-row  w-50 justify-center items-center ">
+          <button className=" border-2 border-green-500 rounded-lg px-3">
+            <p>Nos Tarifs</p>
+          </button>
         </div>
-        <div>
-          <img src="assets/2.jpeg" />
-          <p className="legend">Legend 2</p>
-        </div>
-        <div>
-          <img src="assets/3.jpeg" />
-          <p className="legend">Legend 3</p>
-        </div>
-        <div>
-          <img src="assets/4.jpeg" />
-          <p className="legend">Legend 4</p>
-        </div>
-        <div>
-          <img src="assets/5.jpeg" />
-          <p className="legend">Legend 5</p>
-        </div>
-        <div>
-          <img src="assets/6.jpeg" />
-          <p className="legend">Legend 6</p>
-        </div>
-      </Carousel>
+      </div>
     </>
   );
 };

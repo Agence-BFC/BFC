@@ -1,7 +1,7 @@
 const Formulaire = () => {
   return (
     <>
-      <h1 className="flex flex-row justify-center py-2 text-2xl text-amber-900">
+      <h1 className="flex flex-row justify-center py-3 text-2xl text-amber-900">
         Contactez-nous :
       </h1>
       <section className="flex flex-row justify-around border-4 border-green-500 py-3 mx-3  ">

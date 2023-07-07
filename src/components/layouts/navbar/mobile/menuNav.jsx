@@ -2,9 +2,11 @@
 import { slide as Menu } from "react-burger-menu";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faInstagram,
   faLinkedin,
   faSquareFacebook,
   faSquareGithub,
+  faSquareInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -15,7 +17,7 @@ import { styles } from "./styles";
 const MenuNav = () => {
   return (
     <Menu styles={styles}>
-      <div className=" flex flex-row justify-center w-full">
+      <div className=" flex flex-row justify-center w-full ">
         <button>
           <Image
             src="/images/logos/black-logo.svg"
@@ -29,8 +31,7 @@ const MenuNav = () => {
         <li
           id="L'agence"
           className="menu-item px-2 list-disc"
-          Link
-          href="/lagence"
+          Link="/lagence"
         >
           L'Agence
         </li>
@@ -53,22 +54,8 @@ const MenuNav = () => {
         </li>
         <li className="menu-item--small" href=""></li>
         <br />
-        <div className="w-full flex flew-row  pt-20">
-          <li className="px-3">
-            <button>
-              <FontAwesomeIcon width={20} height={"auto"} icon={faLinkedin} />
-            </button>
-          </li>
-          <li className="px-3">
-            <button>
-              <FontAwesomeIcon
-                width={20}
-                height={"auto"}
-                icon={faSquareGithub}
-              />
-            </button>
-          </li>
-          <li className="px-3">
+        <div className="w-full flex flew-row -mx-6 pt-16">
+          <li className="  px-3">
             <button>
               <FontAwesomeIcon
                 width={20}
@@ -77,7 +64,30 @@ const MenuNav = () => {
               />
             </button>
           </li>
-          <li className="px-3">
+          <li className=" px-3">
+            <button>
+              <FontAwesomeIcon
+                width={22}
+                height={"20"}
+                icon={faSquareInstagram}
+              />
+            </button>
+          </li>
+          <li className="  px-3">
+            <button>
+              <FontAwesomeIcon width={20} height={"auto"} icon={faLinkedin} />
+            </button>
+          </li>
+          <li className="  px-3">
+            <button>
+              <FontAwesomeIcon
+                width={20}
+                height={"auto"}
+                icon={faSquareGithub}
+              />
+            </button>
+          </li>
+          <li className=" px-3">
             <button>
               <FontAwesomeIcon width={22} height={"20"} icon={faEnvelope} />
             </button>
