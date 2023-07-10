@@ -7,7 +7,7 @@ const Clients = () => {
       <section>
       <div>
         <h2 className="flex flex-row justify-center pb-2">Ils nous font confiance :</h2>
-        <p className="text-start">
+        <p className="text-start m-3">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid
           saepe nihil quis illum odio velit dolores odit et libero minus in.
         </p>

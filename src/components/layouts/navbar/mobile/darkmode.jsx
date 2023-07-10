@@ -1,20 +1,25 @@
+import { faMoon } from "@fortawesome/free-solid-svg-icons";
 
+const DarkMode = () => {
+  // console.log(window.localStorage.getItem("mode"));
 
-const mode = () => { window.localStorage.getItem('mode');
+  // let mode = window.localStorage.getItem("mode");
 
-if (mode == 'dark') {
-  modeBtn.checked = true;
-  document.documentElement.classList.remove("light")
-  document.documentElement.classList.add("dark")
-}
+  // if (mode === "dark") {
+  //   // console.log("true");
+  //   // console.log(document.body.classList.contains("dark") ? true : false);
+  // }
 
-if (mode == 'light') {
-  modeBtn.checked = false;
-  document.documentElement.classList.remove("dark")
-  document.documentElement.classList.add("light")
+  let body = document.body.classList.contains("dark");
+  
+  
 
+  if (!body) {
+    document.body.classList.add("dark");
+  } else if (body) {
+    document.body.classList.remove("dark");
+   
+  }
 };
-};
 
-
-export default mode;
+export default DarkMode;
