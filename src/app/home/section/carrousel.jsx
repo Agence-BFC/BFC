@@ -8,7 +8,7 @@ const Carrousel = () => {
   return (
     <>
       <div>
-        <Carousel autoPlay   className="bg-yellow-500 m-8 opacity-80 ">
+        <Carousel autoPlay  className=" bg-yellow-500 m-8 opacity-80 lg:h-1/2  ">
           <div>
             <img 
               src="images/logos/logotest.svg"
@@ -37,7 +37,7 @@ const Carrousel = () => {
             <p className="legend">Entreprise F</p>
           </div>
         </Carousel>
-        <div className="flex flex-row  w-50 justify-center items-center ">
+        <div className="flex flex-row  w-50 justify-center items-center lg:text-3xl ">
           <button className=" border-2 border-green-500 rounded-lg px-3">
             <p>Nos Tarifs</p>
           </button>

@@ -3,10 +3,11 @@
 import { faMoon, faSun, faToggleOff } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+
 const NavbarDesktop = () => {
   return (
     <header className="hidden lg:flex">
-      <nav className=" grid grid-cols-3  items-center  bg-green-500 text-black">
+      <nav className=" grid grid-cols-3   items-center  bg-green-500 text-black">
         <div className="flex flex-row">
           <button>
             <img
@@ -41,10 +42,10 @@ const NavbarDesktop = () => {
             </li>
           </ul>
         </div>
-        <div className="flex flex-row w-full justify-end  pr-4">
+        <div className="flex flex-row w-full justify-end pr-14">
           <div className="flex flex-row  ">
             <button>
-              <let button type="button" onClick={() =>DarkMode()}>
+              <let button type="button" onClick={() => DarkMode()}>
                 <FontAwesomeIcon className="pr-2" icon={faSun} size="2xl" />
                 <FontAwesomeIcon icon={faToggleOff} size="2xl" />
               </let>
