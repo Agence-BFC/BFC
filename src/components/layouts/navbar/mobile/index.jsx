@@ -22,7 +22,7 @@ const NavbarMobile = () => {
           />
         </button>
       </div>
-      <div className="flex flex-row items-center justify-center">
+      <div className=" lg: flex flex-row items-center justify-center">
         <let button type="button" onClick={() => DarkMode()}>
           <FontAwesomeIcon className="pr-2" icon={faSun} size="xl" />
           <FontAwesomeIcon icon={faToggleOff} size="xl" />
