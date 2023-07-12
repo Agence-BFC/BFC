@@ -13,7 +13,7 @@ const Carousell = () => {
           <Carousel>
             <div className="bg-[url('/images/background/immg2.jpg')] py-10 ">
               <div className="flex-start">
-                <h6 className="pb-10 uppercase text-lg">Crée une site web</h6>
+                <h6 className="pb-10 uppercase text-lg">Crée un site web</h6>
               </div>
               <p className="">
                 *je suis un paragraphe représentant*
@@ -64,9 +64,9 @@ const Carousell = () => {
       </div>
 
       <div>
-        <section>
+        <section className="py-5">
           <Carousel>
-            <div className="bg-[url('/images/background/immg2.jpg')] py-10">
+            <div className="bg-[url('/images/background/immg2.jpg')] py-15">
               <div className="flex-start">
                 <h1 className="pb-10 uppercase text-lg">Crée une site web</h1>
               </div>
