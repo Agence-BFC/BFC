@@ -24,6 +24,7 @@ const MenuNav = () => {
             width={150}
             height={100}
             alt="LogoWhite"
+            Link="/mobile/index.jsx"
           />
         </button>
       </div>
@@ -31,14 +32,14 @@ const MenuNav = () => {
         <li
           id="L'agence"
           className="menu-item px-2 list-disc"
-          Link="/lagence"
+          Link="/section/introduction.jsx"
         >
           L'Agence
         </li>
         <li
           id="Services"
           className="menu-item px-2 py-6 list-disc"
-          Link="/services"
+          Link="/section/services.jsx"
         >
           Services
         </li>
@@ -48,7 +49,7 @@ const MenuNav = () => {
         <li
           id="Contact"
           className="menu-item px-2 py-6 list-disc"
-          Link="/contact"
+          Link="/section/formulaire.jsx"
         >
           Contact
         </li>

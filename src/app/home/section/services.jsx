@@ -31,7 +31,7 @@ const Services = () => {
       </section>
       <div className="flex-auto justify-center w-50 ">
         <div className="flex flex-col  items-center border-4  rounded-md  border-green-500 bg-yellow-500 opacity-80 hover:opacity-50 m-5 -z-10 pb-2 ">
-          <h2 className="flex w-full justify-center pt-2 px-4 text-amber-900 lg:text-4xl">
+          <h2 className="flex flex-row w-full justify-center pt-2 px-4 text-amber-900 lg:text-4xl">
             Desing graphique
           </h2>
           <ul className="lg:text-4xl">
@@ -54,10 +54,10 @@ const Services = () => {
       <section>
         <div className="flex-auto justify-center w-50 ">
           <div className="flex flex-col  items-center border-4  rounded-md  border-green-500 bg-yellow-500 opacity-80 hover:opacity-50 m-5 -z-10 pb-2 ">
-            <h2 className="flex w-full justify-center pt-2 px-9 text-amber-900 lg:text-4xl">
+            <h2 className="flex w-full justify-center pt-2 px-2 text-amber-900 lg:text-4xl">
               Maintenance
             </h2>
-            <ul className="lg:text-4xl">
+            <ul className=" lg:text-4xl  ">
               <li id="Lorem" className="list-disc pt-2" link href="/Lorem">
                 Lorem
               </li>

@@ -6,8 +6,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NavbarDesktop = () => {
   return (
-    <header className="hidden lg:flex">
-      <nav className=" grid grid-cols-3   items-center  bg-green-500 text-black">
+    <header className="hidden lg:flex xl:w-full">
+      <nav className=" grid grid-cols-3   items-center  bg-green-500 text-black xl:w-full">
         <div className="flex flex-row">
           <button>
             <img
@@ -22,12 +22,12 @@ const NavbarDesktop = () => {
           <ul className=" w-full flex flex-row justify-center list-none text-2xl">
             <li className="pl-16">
               <button>
-                <a href="#">L'agence</a>
+                <a href="/section/introduction.jsx">L'agence</a>
               </button>
             </li>
             <li className="px-20">
               <button>
-                <a href="#">Services</a>
+                <a href="/section/services.jsx">Services</a>
               </button>
             </li>
             <li>
@@ -37,7 +37,7 @@ const NavbarDesktop = () => {
             </li>
             <li className="px-20">
               <button>
-                <a href="#">Contact</a>
+                <a href="/section/formul.jsx">Contact</a>
               </button>
             </li>
           </ul>
