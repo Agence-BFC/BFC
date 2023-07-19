@@ -8,7 +8,7 @@ const Carrousel = () => {
   return (
     <>
       <div>
-        <Carousel autoPlay  className=" bg-yellow-500 m-8 opacity-80 lg:h-1/2  ">
+        <Carousel autoPlay infiniteLoop  className=" bg-yellow-500 m-8 opacity-80 lg:h">
           <div>
             <img 
               src="images/logos/logotest.svg"

@@ -5,13 +5,13 @@ const Formul = () => {
         Contactez-nous :
       </h1>
       <div className="border-4 border-green-500 mx-3 lg:text-4xl px-3">
-        <div className="flex flex-col items-center  lg:grid grid-cols-2">
-          <div>
+        <div className="w-full flex flex-col justify-center lg:grid grid-cols-2 justify-items-center ">
+          <div className="flex justify-center">
             <form className="mt-5">
               <div className="mb-4"></div>
               <div>
                 <label htmlFor="" className="block">
-                  Nom
+                  Nom :
                 </label>
               </div>
               <input
@@ -21,12 +21,12 @@ const Formul = () => {
               />
             </form>
           </div>
-          <div>
+          <div className="flex justify-center">
             <form className="mt-5">
               <div className="mb-4"></div>
               <div>
                 <label htmlFor="" className="block">
-                  Prénom
+                  Prénom :
                 </label>
               </div>
               <input
@@ -36,12 +36,12 @@ const Formul = () => {
               />
             </form>
           </div>
-          <div>
+          <div className="flex justify-center">
             <form className="mt-5">
               <div className="mb-4"></div>
               <div>
                 <label htmlFor="" className="block">
-                  Société
+                  Société :
                 </label>
               </div>
               <input
@@ -51,12 +51,12 @@ const Formul = () => {
               />
             </form>
           </div>
-          <div>
+          <div className="flex justify-center">
             <form className="mt-5">
               <div className="mb-4"></div>
               <div>
                 <label htmlFor="" className="block">
-                  Téléphone
+                  Téléphone :
                 </label>
               </div>
               <input
@@ -66,12 +66,12 @@ const Formul = () => {
               />
             </form>
           </div>
-          <div>
+          <div className="flex justify-center">
             <form className="mt-5">
               <div className="mb-4"></div>
               <div>
                 <label htmlFor="" className="block">
-                  Email
+                  Email :
                 </label>
               </div>
               <input
@@ -81,17 +81,17 @@ const Formul = () => {
               />
             </form>
           </div>
-          <div>
+          <div className="flex justify-center">
             <form className="mt-5">
               <div className="mb-4"></div>
               <div>
                 <label htmlFor="" className="block">
-                  Message
+                  Message :
                 </label>
               </div>
               <input
                 type="text"
-                className="border-green-400 bg-yellow-500 border-2 p-6 rouded-sm"
+                className="border-green-400 bg-yellow-500 border-2 p-6 rouded-sm lg:p-12"
                 placeholder="Ecrire"
               />
             </form>
