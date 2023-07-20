@@ -11,24 +11,25 @@ const Carousell = () => {
       <div>
         <section>
           <Carousel>
-            <div className="bg-[url('/images/background/immg2.jpg')] py-10 ">
-              <div className="flex-start">
-                <h6 className="pb-10 uppercase text-lg">Crée un site web</h6>
-              </div>
-              <p className="">
-                *je suis un paragraphe représentant*
-                <br />
-                "crée un site web"
-              </p>
-              <div className="flex flex-row justify-center pt-10">
-                <button className=" flex flex-row  border-4 border-green-500 bg justify-center a href">
-                  En savoir +
-                  <a href=""></a>
-                </button>
+            <div>
+              <div className="py-18 border-4 border-green-950 flex flex-col items-center ">
+                <div className="flex-start">
+                  <h1 className="pb-10 uppercase text-lg">Crée un site web</h1>
+                </div>
+                <div className=" bg-gray-300 py-10 mb-8 ml-4 mr-4">
+                  <p className="">
+                    *je suis un paragraphe représentant*
+                    <br />
+                    "crée un site web"
+                  </p>
+                  <div>
+                    <div className="bg-[url('/images/background/photo.jpg')] py-24 ml-4 mr-4"></div>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div className="bg-[url('/images/background/photo.jpg')] py-10">
+            <div className="bg-[url('/images/background/photo.jpg')] py-24">
               <div className="flex-start">
                 <h1 className="pb-10 uppercase text-lg">Crée une site web</h1>
               </div>
