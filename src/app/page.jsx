@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/free-brands-svg-icons";
 
 import Image from "next/image";
 import Navbar from "@/components/layouts/navbar";
@@ -9,8 +8,18 @@ import Services from "./home/section/services";
 import Clients from "./home/section/clients";
 import Carrousel from "./home/section/carrousel";
 import Formulaire from "./home/section/formulaire";
+import { useEffect } from "react";
 
-export default function () {
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
+export default function Homepage () {
+  useEffect(
+    () => {
+      AOS.init();
+    },[]);
+  
   return (
     <>
       <Navbar />
