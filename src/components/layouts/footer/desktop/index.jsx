@@ -68,7 +68,7 @@ const FooterDesktop = () => {
               />
             </div>
             <div className="px-8">
-              <FontAwesomeIcon width={30} height={"auto"} icon={faLinkedin} />
+              <FontAwesomeIcon width={30} height={"auto"} icon={""} />
             </div>
             <div className="px-8">
               <FontAwesomeIcon

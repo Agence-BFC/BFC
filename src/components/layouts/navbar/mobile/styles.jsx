@@ -22,6 +22,7 @@ export let styles = {
   bmMenuWrap: {
     position: "fixed",
     height: "100%",
+    width:"100%"
   },
   bmMenu: {
     background: "white",

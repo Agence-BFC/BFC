@@ -17,7 +17,7 @@ import { styles } from "./styles";
 const MenuNav = () => {
   return (
     <Menu styles={styles}>
-      <div className=" flex flex-row justify-center w-full ">
+      <div className=" flex flex-row justify-center w-full py-16">
         <button>
           <Image
             src="/images/logos/black-logo.svg"
@@ -27,36 +27,37 @@ const MenuNav = () => {
             Link="/mobile/index.jsx"
           />
         </button>
-      </div>
+      </div >
+      
       <ul className="text-2xl uppercase  text-amber-900 ">
         <li
           id="L'agence"
-          className="menu-item px-2 list-disc"
+          className="menu-item px-2 "
           Link="/section/introduction.jsx"
         >
           L'Agence
         </li>
         <li
           id="Services"
-          className="menu-item px-2 py-6 list-disc"
+          className="menu-item px-2 py-6 "
           Link="/section/services.jsx"
         >
           Services
         </li>
-        <li id="Projets" className="menu-item px-2 list-disc" Link="/projets">
+        <li id="Projets" className="menu-item px-2" Link="/projets">
           Projets
         </li>
         <li
           id="Contact"
-          className="menu-item px-2 py-6 list-disc"
+          className="menu-item px-2 py-6 "
           Link="/section/formulaire.jsx"
         >
           Contact
         </li>
         <li className="menu-item--small" href=""></li>
         <br />
-        <div className="w-full flex flew-row -mx-6 pt-16">
-          <li className="  px-3">
+        <div className=" flex px-2 pt-4 ">
+          <li className=" ">
             <button>
               <FontAwesomeIcon
                 width={20}
@@ -65,7 +66,7 @@ const MenuNav = () => {
               />
             </button>
           </li>
-          <li className=" px-3">
+          <li className=" px-5">
             <button>
               <FontAwesomeIcon
                 width={22}
@@ -74,12 +75,12 @@ const MenuNav = () => {
               />
             </button>
           </li>
-          <li className="  px-3">
+          <li className="">
             <button>
               <FontAwesomeIcon width={20} height={"auto"} icon={faLinkedin} />
             </button>
           </li>
-          <li className="  px-3">
+          <li className=" px-5">
             <button>
               <FontAwesomeIcon
                 width={20}
@@ -88,7 +89,7 @@ const MenuNav = () => {
               />
             </button>
           </li>
-          <li className=" px-3">
+          <li className=" ">
             <button>
               <FontAwesomeIcon width={22} height={"20"} icon={faEnvelope} />
             </button>
