@@ -1,6 +1,6 @@
 import Caroussel from "./section/carousel";
-import Navbar from "@/components/layouts/navbar";
-import NavbarMobile from "@/components/layouts/navbarMobile";
+import Navbar from "@/components/layouts/desktop";
+import NavbarMobile from "@/components/layouts/header/Mobile";
 import Footer from "@/components/layouts/footer";
 import Form from "@/components/tools/form";
 import Intro from "@/app/projets/section/intro";
@@ -9,9 +9,9 @@ const SectionContact = () => {
   return (
     <>
       <div>
-        <Navbar/>
-        <NavbarMobile/>
-        <Intro/>
+        <Navbar />
+        <NavbarMobile />
+        <Intro />
         <Caroussel />
         <Form />
         <Footer />
