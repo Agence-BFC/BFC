@@ -1,13 +1,13 @@
 "use client";
 
-import NavbarDesktop from "./desktop";
+import Desktop from "./desktop";
 import NavbarMobile from "./mobile";
 
 const Header = () => {
   return (
     <>
     <div className="max-lg:hidden">
-      <NavbarDesktop />
+      <Desktop />
     </div>
     <div className="lg:hidden">
       <NavbarMobile/>

@@ -1,4 +1,4 @@
-const Navbar = () => {
+const desktop = () => {
   return (
     <header className="hidden lg:flex">
       <nav className="flex flex-row w-full items-center bg-green-500 text-white lg:hidden">
@@ -35,4 +35,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default desktop;

@@ -1,5 +1,5 @@
 import FooterMobile from "./mobile";
-import FooterDesktop from "../header/Mobile/desktop";
+import Desktop from "./desktop";
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         <FooterMobile />
       </footer>
       <footer className="hidden lg:flex">
-        <FooterDesktop />
+        <Desktop />
       </footer>
     </>
   );

@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Navbar from "@/components/layouts/desktop";
+import Navbar from "@/components/layouts/header/desktop";
 import NavbarMobile from "@/components/layouts/header/Mobile";
 import Home from "@/app/home";
 import Footer from "@/components/layouts/footer";
