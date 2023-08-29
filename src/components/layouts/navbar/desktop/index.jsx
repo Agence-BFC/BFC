@@ -7,7 +7,7 @@ import DarkMode from "../mobile/darkMode";
 const NavbarDesktop = () => {
   return (
     <header className="hidden lg:flex xl:w-full">
-      <nav className=" grid grid-cols-3   items-center fixed z-10 bg-green-500 text-black xl:w-full">
+      <nav className=" grid grid-cols-3   items-center fixed z-10 bg-green-800 text-black xl:w-full">
         <div className="flex flex-row">
           <button>
             <img

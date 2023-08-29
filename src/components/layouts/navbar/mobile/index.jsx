@@ -8,7 +8,7 @@ import DarkMode from "./darkMode";
 
 const NavbarMobile = () => {
   return (
-    <nav className="z-10 grid grid-cols-3 bg-green-500 fixed w-full lg:hidden ">
+    <nav className="z-10 grid grid-cols-3 bg-green-800 fixed w-full lg:hidden ">
       <div>
         <MenuNav />
       </div>
