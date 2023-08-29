@@ -1,7 +1,7 @@
 const Services = () => {
   return (
     <>
-      <h1 className="flex flex-row justify-center py-2 text-amber-900 text-2xl">
+      <h1 className="flex flex-row juistfy-center py-2 text-amber-900 text-2xl">
         Services :
       </h1>
       <section >
