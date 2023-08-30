@@ -1,4 +1,4 @@
-import { faMoon } from "@fortawesome/free-solid-svg-icons";
+
 
 const DarkMode = () => {
   // console.log(window.localStorage.getItem("mode"));
@@ -11,11 +11,13 @@ const DarkMode = () => {
   // }
 
   let body = document.body.classList.contains("dark");
+  let bmMenu = document.getElementsByClassName("bm-menu");
   
   
 
   if (!body) {
     document.body.classList.add("dark");
+    bmMenu[0].classList.add("dark:bg-black");
   } else if (body) {
     document.body.classList.remove("dark");
    

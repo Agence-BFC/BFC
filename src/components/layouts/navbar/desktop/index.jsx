@@ -1,55 +1,69 @@
 "use client";
 
-import { faMoon, faSun, faToggleOff } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import DarkMode from "../mobile/darkMode";
+import React from "react";
+import { useState } from "react";
+import { BsToggleOff, BsToggleOn } from "react-icons/bs";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const NavbarDesktop = () => {
+  const [showButton, setShowButton] = useState(false);
   return (
     <header className="hidden lg:flex xl:w-full">
-      <nav className=" grid grid-cols-3   items-center fixed z-10 bg-green-800 text-black xl:w-full">
-        <div className="flex flex-row">
+      <nav className=" grid grid-cols-3 items-center justify-center fixed z-10 top-0 bg-green-800 text-black lg:py-6 lg:text-4xl xl:w-full ">
+        <div className="flex flex-row pl-2">
           <button>
             <img
               src="./images/logos/black-logo.svg"
               alt="LogoWhite"
-              width={150}
+              width={200}
               height={100}
             />
           </button>
         </div>
-        <div className=" flex flew-row ">
-          <ul className=" w-full flex flex-row justify-center list-none text-2xl">
-            <li className="pl-16">
+      
+          <ul className="  grid grid-cols-4 w-full ">
+            <div className="flex flex-row w-full justify-between ">
+            <li className="p-3 hover:text-amber-800 hover:bg-white hover:rounded-full hover:  hover:transition hover:duration-500 ">
               <button>
-                <a href="/section/introduction.jsx">L'agence</a>
+                <a href="#"> Agence</a>
               </button>
             </li>
-            <li className="px-20">
+            <li className="p-3 hover:text-amber-800 hover:bg-white hover:rounded-full hover: hover:transition hover:duration-500 mx-20 ">
+            <AnchorLink offset={() => 300} href="#services">
               <button>
                 <a href="/section/services.jsx">Services</a>
               </button>
+              </AnchorLink>
             </li>
-            <li>
+            <li className="p-3 hover:text-amber-800 hover:bg-white hover:rounded-full hover: hover:transition hover:duration-500 ">
               <button>
                 <a href="#">Projets</a>
               </button>
             </li>
-            <li className="px-20">
+            <li className="p-3 hover:text-amber-800 hover:bg-white hover:rounded-full  hover: hover:transition hover:duration-500 mx-20 ">
               <button>
-                <a href="/section/formul.jsx">Contact</a>
+                <a href="/section/contact.jsx">Contact</a>
               </button>
             </li>
+            </div>
           </ul>
-        </div>
-        <div className="flex flex-row w-full justify-end pr-14">
-          <div className="flex flex-row  ">
-            <button>
-              <let button type="button" onClick={() => DarkMode()}>
-                <FontAwesomeIcon className="pr-2" icon={faSun} size="2xl" />
-                <FontAwesomeIcon icon={faToggleOff} size="2xl" />
-              </let>
-            </button>
+        <div className="flex flex-row w-full justify-end pr-14  ">
+          <div className="flex flex-row pr-2 ">
+          <button 
+            type="button"
+            onClick={() => {
+              DarkMode();
+              setShowButton(!showButton);
+              
+            }}
+          >
+            {showButton === false ? (
+              <BsToggleOff size={60} />
+            ) : (
+              <BsToggleOn size={60} />
+            )}
+          </button>
           </div>
         </div>
       </nav>

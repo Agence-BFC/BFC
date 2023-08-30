@@ -8,8 +8,8 @@ const Carrousel = () => {
   return (
     <>
       <div className=" m-2 md:mx-30  lg:my-14 lg:mx-72 hover:transition hover:ease-in-out hover:duration-200 lg:hover:scale-105 ">
-        <div className="contain rounded-lg  mx-6 md:mx-48 flex justify-center lg:mx-80">
-          <div className="  m-6 bg-yellow-500 opacity-80 md:mx-6 lg:my-14 lg:h-1/2 lg:w-1/2 ">
+        <div className="contain bg-yellow-500 rounded-lg  mx-7 md:mx-48 flex justify-center py-2 lg:mx-80">
+          <div className="  card m-4 py-10  md:mx-16 lg:my-14 lg:h-1/2 lg:w-1/2 ">
             <Carousel
               autoPlay
               infiniteLoop
@@ -66,7 +66,7 @@ const Carrousel = () => {
       </div>
       <div className="w-full flex justify-center py-6 ">
         <button
-          className="  items-center w-36  bg-green-900   rounded-full uppercase px-3 py-3  hover:text-white hover:transition hover:ease-in-out hover:duration-200 dark:hover:bg-amber-950 lg:text-lg lg:w-48 "
+          className="  items-center w-42  bg-green-900   rounded-full uppercase  px-3 py-3 my-4 hover:text-white hover:transition hover:ease-in-out hover:duration-200 dark:hover:bg-amber-950 lg:text-lg lg:w-56 lg:my-10 "
           type="button"
           value="En savoir +"
         >

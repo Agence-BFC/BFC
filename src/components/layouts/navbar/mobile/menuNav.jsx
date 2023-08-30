@@ -9,27 +9,46 @@ import {
   faSquareInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 import Link from "next/link";
 import Image from "next/image";
 import { styles } from "./styles";
 
 const MenuNav = () => {
+  const [hideMenu, setHideMenu] = useState(false);
+  const HideMenu = () => {
+    setHideMenu(!hideMenu);
+  };
+
+
+
   return (
-    <Menu styles={styles}>
-      <div className=" flex flex-row justify-center w-full py-16">
+    <Menu styles={styles} isOpen={hideMenu === true ? false : null} >
+      <div className=" flex flex-row justify-center w-full py-16 dark:hidden">
         <button>
           <Image
             src="/images/logos/black-logo.svg"
             width={150}
             height={100}
-            alt="LogoWhite"
+            alt="Blacklogo"
+            Link="/mobile/index.jsx"
+          />
+        </button>
+      </div >
+      <div className=" flex-row justify-center w-full py-16 hidden dark:flex">
+        <button>
+          <Image
+            src="/images/logos/white-logo.svg"
+            width={150}
+            height={100}
+            alt="WhiteLogo"
             Link="/mobile/index.jsx"
           />
         </button>
       </div >
       
-      <ul className="text-2xl uppercase  text-amber-900 ">
+      <ul className="text-2xl uppercase  text-amber-900  ">
         <li
           id="L'agence"
           className="menu-item px-2 "

@@ -10,7 +10,7 @@ import Footer from "@/components/layouts/footer";
 const Home = () => {
   return (
     <main className="dark:bg-black dark:text-white dark:uppercase bg-white ">
-      <Background>
+      <Background >
       <Introduction />
       </Background>
       <Services />
