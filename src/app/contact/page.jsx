@@ -12,7 +12,7 @@ const SectionContact = () => {
         <Navbar />
         <NavbarMobile />
         <Intro />
-        <Caroussel />
+        {/* <Caroussel /> */}
         <Form />
         <Footer />
       </div>
