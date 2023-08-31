@@ -19,7 +19,7 @@ const NavbarMobile = () => {
             src="/images/logos/black-logo.svg"
             width={100}
             height={50}
-            alt="LogoWhite"
+            alt="blacklogo"
           />
         </button>
       </div>

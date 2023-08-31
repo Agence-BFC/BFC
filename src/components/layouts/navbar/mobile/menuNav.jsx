@@ -21,11 +21,9 @@ const MenuNav = () => {
     setHideMenu(!hideMenu);
   };
 
-
-
   return (
-    <Menu styles={styles} isOpen={hideMenu === true ? false : null} >
-      <div className=" flex flex-row justify-center w-full py-16 dark:hidden">
+    <Menu styles={styles} isOpen={hideMenu === true ? false : null}>
+      <div className=" flex flex-row justify-center w-full py-16 dark:hidden overflow-y-hidden ">
         <button>
           <Image
             src="/images/logos/black-logo.svg"
@@ -35,7 +33,7 @@ const MenuNav = () => {
             Link="/mobile/index.jsx"
           />
         </button>
-      </div >
+      </div>
       <div className=" flex-row justify-center w-full py-16 hidden dark:flex">
         <button>
           <Image
@@ -46,8 +44,8 @@ const MenuNav = () => {
             Link="/mobile/index.jsx"
           />
         </button>
-      </div >
-      
+      </div>
+
       <ul className="text-2xl uppercase  text-amber-900  ">
         <li
           id="L'agence"
@@ -75,44 +73,47 @@ const MenuNav = () => {
         </li>
         <li className="menu-item--small" href=""></li>
         <br />
-        <div className=" flex px-2 pt-4 ">
-          <li className=" ">
-            <button>
-              <FontAwesomeIcon
-                width={20}
-                height={"auto"}
-                icon={faSquareFacebook}
-              />
-            </button>
-          </li>
-          <li className=" px-5">
-            <button>
-              <FontAwesomeIcon
-                width={22}
-                height={"20"}
-                icon={faSquareInstagram}
-              />
-            </button>
-          </li>
-          <li className="">
-            <button>
-              <FontAwesomeIcon width={20} height={"auto"} icon={faLinkedin} />
-            </button>
-          </li>
-          <li className=" px-5">
-            <button>
-              <FontAwesomeIcon
-                width={20}
-                height={"auto"}
-                icon={faSquareGithub}
-              />
-            </button>
-          </li>
-          <li className=" ">
-            <button>
-              <FontAwesomeIcon width={22} height={"20"} icon={faEnvelope} />
-            </button>
-          </li>
+        <div className>
+          <div className=" flex px-2  pt-4">
+    
+            <li className=" ">
+              <button>
+                <FontAwesomeIcon
+                  width={20}
+                  height={"auto"}
+                  icon={faSquareFacebook}
+                />
+              </button>
+            </li>
+            <li className=" px-5">
+              <button>
+                <FontAwesomeIcon
+                  width={22}
+                  height={"20"}
+                  icon={faSquareInstagram}
+                />
+              </button>
+            </li>
+            <li className="">
+              <button>
+                <FontAwesomeIcon width={20} height={"auto"} icon={faLinkedin} />
+              </button>
+            </li>
+            <li className=" px-5">
+              <button>
+                <FontAwesomeIcon
+                  width={20}
+                  height={"auto"}
+                  icon={faSquareGithub}
+                />
+              </button>
+            </li>
+            <li className=" ">
+              <button>
+                <FontAwesomeIcon width={22} height={"20"} icon={faEnvelope} />
+              </button>
+            </li>
+          </div>
         </div>
       </ul>
     </Menu>

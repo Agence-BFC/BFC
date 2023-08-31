@@ -5,6 +5,7 @@ export let styles = {
     height: "30px",
     left: "20px",
     top: "21px",
+   
   },
   bmBurgerBars: {
     background: "black",
@@ -18,6 +19,7 @@ export let styles = {
   },
   bmCross: {
     background: "#78350f",
+    scale:"2",
   },
   bmMenuWrap: {
     position: "fixed",

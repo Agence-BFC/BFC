@@ -1,6 +1,7 @@
 import Image from "next/image";
 import "./styles.css";
 
+
 const Services = () => { 
   return (
     <>
@@ -9,7 +10,7 @@ const Services = () => {
       </h1>
       <section className="lg:flex lg:flex-row  "id="services">
         <div className="flex-auto justify-center  ">
-          <div className=" card flex flex-col items-center rounded-md   bg-yellow-500 mx-8 md:mx-52   hover: m-5 -z-10 pb-2   lg:px-10 lg:mx-16  lg:my-6  ">
+          <div className=" card flex flex-col items-center rounded-md   bg-yellow-500 mx-8 md:mx-52   hover: m-5 -z-10 pb-2   lg:px-10 lg:mx-16  lg:my-6 hover:ease-in-out hover:duration-200 lg:hover:scale-105 ">
             <div className=" flex flex-col contain items-center justify-center px-8 m-4 lg:pb-1 lg:px-12  ">
               <h2 className="flex w-full justify-center pt-2  mx-5 text-amber-900 text-xl lg:px-14 lg:mx-20 lg:text-4xl lg:items-center ">
                 Création web
@@ -44,7 +45,7 @@ const Services = () => {
           </div>
         </div>
         <div className="flex-auto justify-center  ">
-          <div className=" card flex flex-col items-center rounded-md  bg-yellow-500 mx-8 md:mx-52   hover: m-5 -z-10 pb-2  lg:px-6 lg:mx-24  lg:my-6  ">
+          <div className=" card flex flex-col items-center rounded-md  bg-yellow-500 mx-8 md:mx-52   hover: m-5 -z-10 pb-2  lg:px-6 lg:mx-24  lg:my-6  hover:ease-in-out hover:duration-200 lg:hover:scale-105">
             <div className=" flex flex-col contain items-center justify-center px-2 m-4  lg:px-12 ">
               <h2 className="flex w-full justify-center pt-2  mx-5 text-amber-900 text-xl lg:px-8 lg:mx-20 lg:text-4xl lg:items-center ">
                 Design graphisme
@@ -69,7 +70,7 @@ const Services = () => {
                 />
               </div>
               <button
-                className=" flex flex-row justify-center bg-green-800 my-3  rounded-full hover-bg-green-500 uppercase px-3 py-3 w-36 hover:text-white hover:transition hover:ease-in-out hover:duration-200  lg:text-lg lg:w-48 dark:hover:bg-amber-950 "
+                className=" flex flex-row justify-center bg-green-800 my-3  rounded-full hover-bg-green-500 uppercase px-3 py-3 w-36 hover:text-white hover:transition hover:ease-in-out   lg:text-lg lg:w-48 dark:hover:bg-amber-950  hover:duration-200 lg:hover:scale-105 "
                 type="button"
                 value="En savoir +"
               >
@@ -79,7 +80,7 @@ const Services = () => {
           </div>
         </div>
         <div className="flex-auto justify-center  ">
-          <div className=" card flex flex-col items-center rounded-md   bg-yellow-500 mx-8 md:mx-52   hover: m-5 -z-10 pb-2  lg:px-6 lg:mx-16  lg:my-6  ">
+          <div className=" card flex flex-col items-center rounded-md   bg-yellow-500 mx-8 md:mx-52   hover: m-5 -z-10 pb-2  lg:px-6 lg:mx-16  lg:my-6 hover:ease-in-out hover:duration-200 lg:hover:scale-105 ">
             <div className=" flex flex-col contain items-center justify-center px-2 m-4  lg:px-6 ">
               <h2 className="flex w-full justify-center pt-2  mx-5 text-amber-900 text-xl lg:px-10 lg:mx-20 lg:text-4xl lg:items-center ">
                 Maintenance site
