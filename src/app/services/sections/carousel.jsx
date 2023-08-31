@@ -16,17 +16,17 @@ const Carousell = () => {
                 <div className="flex-start py-5">
                   <h1 className="uppercase text-lg">Crée un site web</h1>
                 </div>
-                <div className=" bg-white mx-8 py-24 ">
-                  <div className="flex justify">
+                <div className=" bg-white mx-8  pb-8">
+                  
                   <p className="text-xs flex items-start justify-start mb-14 text-left p-4">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Eligendi voluptatum, sapiente corporis, atque.
                   </p>
-                  </div>
+                
                   <div>
-                    <div className="bg-[url('/images/background/photo.jpg')] px-10 py-10 mx-8"></div>
+                    <div className="bg-[url('/images/background/photo.jpg')] px-10 py-14 mx-4 "></div>
                   </div>
-                  <p className="text-xs">
+                  <p className="text-xs pt-8">
                     <button className="text-xs border-4 border-green-500 ">
                       En savoir plus{" "}
                     </button>
