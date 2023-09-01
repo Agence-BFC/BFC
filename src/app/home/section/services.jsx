@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <>
       <h1 className="flex flex-row justify-center py-3 my-3 text-amber-900 text-2xl lg:text-6xl lg:py-10 shadow-2xl shadow-amber-800 mx-20 lg:mx-96 rounded-full">
-        Services :
+        Services
       </h1>
       <section className="lg:flex lg:flex-row  " id="services">
         <div className="flex-auto justify-center  ">
@@ -15,7 +15,7 @@ const Services = () => {
               <h2 className="flex w-full justify-center pt-2  mx-5 text-amber-900 text-xl  lg:px-14 lg:mx-20 lg:text-4xl lg:items-center ">
                 Création web
               </h2>
-              <ul className="list-disc my-6 lg:text-4xl lg:my-6">
+              <ul className="list-disc my-6  lg:text-4xl lg:my-6">
                 <li id="Lorem" className="" link href="/Lorem">
                    Responsive
                 </li>

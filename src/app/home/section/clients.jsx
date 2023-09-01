@@ -2,7 +2,7 @@ const Clients = () => {
   return (
     <>
         <h1 className="flex flex-row justify-center py-3 my-4 text-2xl  text-amber-900 lg:text-6xl lg:py-10 shadow-2xl shadow-amber-800 mx-20 lg:mx-96 rounded-full ">
-          Clients :
+          Clients
         </h1>
       <section>
       <div>
