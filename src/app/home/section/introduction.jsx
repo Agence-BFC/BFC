@@ -8,10 +8,7 @@ const Introduction = () => {
         <div className=" lg:px-8 lg lg:my-60 lg:mx-60 ">
         
           <p className=" text-white pt-4 mx-14 my-6 md:mx-28 lg:pt-10 lg:mx-2 lg:px-32  lg:text-4xl backdrop-blur-xl   ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam hi
-            illum fugiat sit itaque, suscipit blanditiis. Iusto rerum inventore
-            sit. Earum commodi eligendi praesentium laborum obcaecati labore
-            ratione adipisci doloribus!
+        Nous sommes une équipe composé de 3 personnes. Chloé notre CTO ainsi que Bollo et Florian les développeurs. Notre agence aime les nouveaux challenges et sera ravis de vous aider dans votre projet web.
           </p>
         </div>
           

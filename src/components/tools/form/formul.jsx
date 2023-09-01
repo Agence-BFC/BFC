@@ -48,7 +48,7 @@ const Formul = () => {
         </div>
       </div>
 
-      <h1 className="flex flex-row justify-center pt-4 text-2xl text-amber-900 lg:text-6xl shadow-2xl shadow-amber-800 mx-20 lg:mx-96 rounded-full ">
+      <h1 className="flex flex-row justify-center my-3 pt-2 text-2xl px-5 mx-10 text-amber-900 lg:text-6xl shadow-2xl shadow-amber-800  lg:mx-96 rounded-full ">
         Contactez-nous :
       </h1>
       <form className="card my-10  flex flex-col mx-5 px-4 md:mx-16 lg:my-16 lg:grid lg:grid-cols-2 lg:mx-96 lg:mb-20  hover:ease-in-out hover:duration-200 lg:hover:scale-105 blur-none  ">
