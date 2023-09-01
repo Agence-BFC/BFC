@@ -14,13 +14,13 @@ import ProgressBar from "react-scroll-progress-bar";
 
 const Intro = () => {
   return (
-    <main className="lg:flex  ">
+    <main className="lg:flex h-1/2 lg:w-full ">
       <div>
         <ProgressBar />
       </div>
-      <div className="mt-20 lg:ml-28 ">
+      <div className="mt-16 ">
         <div className="opacity-90 overflow-x-hidden overflow-y-hidden bg-[url('/images/fond.png')]  h-1/2 lg:h-screen w-screen bg-no-repeat bg-cover bg-left">
-          <div className=" hidden:lg p-4 lg:w-2/12  mt-40 mb-40 flex flex-col ">
+          <div className="  p-4 lg:w-2/12  mt-40 mb-40 flex flex-col ">
             <h1 className=" font-bold uppercase text-2xl text-center">
               nous joindre
             </h1>
