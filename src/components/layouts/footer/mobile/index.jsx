@@ -13,7 +13,7 @@ const FooterMobile = () => {
   return (
     <>
  
-      <div className="flex flex-col bg-sky-500">
+      <div className="flex flex-col bg-teal-500">
         <div className="flex flex-row justify-center">
           <Image
             src="/images/logos/logo-black.svg"

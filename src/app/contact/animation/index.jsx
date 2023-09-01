@@ -19,7 +19,7 @@ const Animation = () => {
       wrapper="span"
       speed={70}
       style={{ display: "inline-block" }}
-      className="text-xl text-center py-2 font-bungeeRegular"
+      className="text-xl text-center py-2 "
       repeat={Infinity}
     />
   );

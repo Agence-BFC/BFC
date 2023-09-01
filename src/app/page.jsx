@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Navbar from "@/components/layouts/header/desktop";
 import NavbarMobile from "@/components/layouts/header/Mobile";
 import Home from "@/app/home";
@@ -11,11 +10,11 @@ import Formulaire from "./home/section/formulaire";
 import { useEffect } from "react";
 
 import AOS from "aos";
-import "aos/dist/aos.css";
+import "aos/dist/aos.css"
 
-export default function Homepage() {
+export default function Page() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({once:false}); 
   }, []);
 
   return (

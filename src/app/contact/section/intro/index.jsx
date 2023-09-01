@@ -6,102 +6,111 @@ import {
   faPhone,
   faLocationDot,
   faEnvelope,
+  faClock,
 } from "@fortawesome/free-solid-svg-icons";
 import Animation from "../../animation";
+import React from "react";
+import ProgressBar from "react-scroll-progress-bar";
 
 const Intro = () => {
   return (
-    <main>
-      <section className="mt-28 mx-4 lg:ml-28 w-full h-full">
-        <div className="">
-          <div className=" p-4 lg:w-2/12  w-full h-full mt-40 mb-20 flex flex-col ">
+    <main className="lg:flex  ">
+      <div>
+        <ProgressBar />
+      </div>
+      <div className="mt-20 lg:ml-28 ">
+        <div className="opacity-90 overflow-x-hidden overflow-y-hidden bg-[url('/images/fond.png')]  h-1/2 lg:h-screen w-screen bg-no-repeat bg-cover bg-left">
+          <div className=" hidden:lg p-4 lg:w-2/12  mt-40 mb-40 flex flex-col ">
             <h1 className=" font-bold uppercase text-2xl text-center">
               nous joindre
             </h1>
           </div>
-          <div className="text-center">
-            <h2 className="font-bold uppercase text-2xl mb-12">
+        </div>
+        <div className="text-center">
+          <h2 className="font-bold uppercase text-2xl mt-12 mb-12 ">
+            <div className="opacity-90 overflow-x-hidden overflow-y-hidden bg-[url('/images/fond.png')]  h-1/2 lg:h-screen mx-4 bg-no-repeat bg-cover bg-left ">
               <Animation />
-            </h2>
-          </div>
-
-          <div className="contain-blue">
-            <div>
-              {DataContact.map((service) => {
-                return (
-                  <div key={service.id}>
-                    {" "}
-                    <CardsServices description={service.description} />{" "}
-                  </div>
-                );
-              })}
             </div>
-          </div>
-          <div className="">
-            <div className="text-center mt-10">
-              <h1 className=" font-bold uppercase text-2xl">
-                Nos horaires <br /> d'ouvertures
-              </h1>
-              <p className="mt-12 ">
-                {" "}
-                Du lundi au vendredi: <p className="font-bold">
-                  8h30 - 18H30
-                </p>{" "}
-                <br />
-                Les week-Ends et jours fériés:{" "}
-                <p className="font-bold">Fermé</p>
-              </p>
-            </div>
-            <div className="">
-              <h3 className="font-bold uppercase text-2xl text-center mt-12">
-                nos moyens de contact
-              </h3>
-            </div>
+          </h2>
+        </div>
 
-            <ul className="text-center items-center mb-10">
-              <li>
-                <div className="flex flex-row justify-center">
-                  <FontAwesomeIcon width={30} height={"auto"} icon={faPhone} />
+        <div data-aos="zoom-in-down" className="contain-blur mx-4 border-b-4 ">
+          <div>
+            {DataContact.map((service) => {
+              return (
+                <div key={service.id}>
+                  {" "}
+                  <CardsServices description={service.description} />{" "}
                 </div>
-                <br />
-                <a href="tel:">
-                  +33 (0)1.23.45.67.89 <div className="px-4"></div>{" "}
-                </a>
-              </li>
-              <br />
-              <br />
-              <li>
-                <div className="flex flex-row justify-center">
-                  <FontAwesomeIcon
-                    width={30}
-                    height={"auto"}
-                    icon={faEnvelope}
-                  />
-                </div>
-                <br />
-
-                <a href="mailto:">Contact@devnet.com</a>
-              </li>
-              <br />
-              <li className="">
-                <div className="flex flex-row justify-center">
-                  <FontAwesomeIcon
-                    width={20}
-                    height={"auto"}
-                    icon={faLocationDot}
-                  />
-                </div>
-                <br />
-                30 Bd, du Chevalier Bayard
-                <br />
-                77100 Meaux
-                <br />
-              </li>
-              <br />
-            </ul>
+              );
+            })}
           </div>
         </div>
-      </section>
+        <hr className="mx-4 mt-12" />
+        <div data-aos="zoom-in" className="flex flex-col text-center mt-12 max-lg:flex w-full">
+          <h1 className=" font-bold uppercase text-2xl">
+            Nos horaires d'ouvertures
+          </h1>
+          <p>
+            {" "}
+            <div className="">
+              <FontAwesomeIcon size="2xl" height={"auto"} icon={faClock} />
+            </div>{" "}
+            <br />
+            Du lundi au vendredi: <p className="font-bold">8h30 - 18H30</p>{" "}
+            <br />
+            Les week-Ends et jours fériés: <p className="font-bold">Fermé</p>
+          </p>
+        </div>
+        <hr className="mx-4 mt-12" />
+        <div
+          data-aos="zoom-in"
+          className=" mt-12 flex flex-col text-center items-center"
+        >
+          <h3 className="font-bold uppercase text-2xl text-center">
+            nos moyens de contact
+          </h3>
+          <div>
+            <div className="py-12">
+              <div className="">
+                <FontAwesomeIcon size="xl" height={"auto"} icon={faPhone} />
+              </div>
+              <p className="font-bold italic">Appeler-nous </p>
+              <a href="tel:">
+                +33 (0)1.23.45.67.89 <div className="px-4"></div>{" "}
+              </a>
+            </div>
+            <div className="">
+              <div>
+                <FontAwesomeIcon size="xl" height={"auto"} icon={faEnvelope} />
+              </div>
+              <p className="font-bold italic">Ecriver-nous </p>
+              <a href="mailto:">
+                Contact@devnet.com <div className="px-4"></div>{" "}
+              </a>
+            </div>
+
+            <div className="py-12 pb-12">
+              <div>
+                <FontAwesomeIcon
+                  size="xl"
+                  height={"auto"}
+                  icon={faLocationDot}
+                />
+              </div>
+              <p className="font-bold italic">Retrouver-nous </p>
+              <a href="tel:">
+                30 Bd, du Chevalier Bayard <br /> 77100 Meaux{" "}
+                <div className="px-4"></div>{" "}
+              </a>
+            </div>
+            <hr className="mx-4 mb-12" />
+            <div>
+              <h1 className="py-4 uppercase  font-bold text-2xl">Formulaire</h1>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   );
 };

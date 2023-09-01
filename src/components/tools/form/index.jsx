@@ -6,10 +6,8 @@ const Form = () => {
   };
 
   return (
-    <form className="contain-blue flex flex-col items-center lg:w-3/4 text-black" action="" method="POST">
-      <div>
-        <h1 className="py-4 uppercase font-bungeeRegular font-bold text-2xl">Formulaire</h1>
-      </div>
+    <form className=" mx-4 contain-blur py-4  mb-12 flex flex-col items-center lg:w-3/4 text-black" action="" method="POST">
+  
       <label htmlFor="" className="text-black pl-2 ">
         Prénom/Nom:
       </label>
@@ -37,13 +35,14 @@ const Form = () => {
 
       <div className="flex flex-row justify-center py-6">
         <button
-          className="contain-orange p"
+          className="contain-blue p"
           type="button"
           onClick={() => SubmitForm()}
         >
           Envoyer
         </button>
       </div>
+      
     </form>
   );
 };
