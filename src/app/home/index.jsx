@@ -18,7 +18,7 @@ const Home = () => {
       <Services />
       <Clients />
       <Carrousel />
-      <Formul />
+ 
     
       <Footer />
     </main>

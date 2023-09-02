@@ -23,7 +23,7 @@ const NavbarMobile = () => {
           />
         </button>
       </div>
-      <div className="flex flex-row justify-center">
+      <div className="flex flex-row justify-end pr-4">
       <button className=""
             type="button"
             onClick={() => {

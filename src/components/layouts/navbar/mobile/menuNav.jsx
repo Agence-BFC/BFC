@@ -8,6 +8,8 @@ import {
   faSquareGithub,
   faSquareInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import { BsFacebook,BsInstagram, BsLinkedin, BsGithub, } from "react-icons/bs";
+import { BsMailbox2 } from "react-icons/bs";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
@@ -23,7 +25,7 @@ const MenuNav = () => {
 
   return (
     <Menu styles={styles} isOpen={hideMenu === true ? false : null}>
-      <div className=" flex flex-row justify-center w-full py-16 dark:hidden overflow-y-hidden ">
+      <div className=" flex flex-row justify-center w-full py-16 dark:hidden overflow-y- ">
         <button>
           <Image
             src="/images/logos/black-logo.svg"
@@ -46,7 +48,7 @@ const MenuNav = () => {
         </button>
       </div>
 
-      <ul className="text-2xl uppercase  text-amber-900  ">
+      <ul className="text-2xl uppercase  text-amber-900 md:my-20 md:text-4xl  ">
         <li
           id="L'agence"
           className="menu-item px-2 "
@@ -56,7 +58,7 @@ const MenuNav = () => {
         </li>
         <li
           id="Services"
-          className="menu-item px-2 py-6 "
+          className="menu-item px-2 py-6 md:py-12"
           Link="/section/services.jsx"
         >
           Services
@@ -66,7 +68,7 @@ const MenuNav = () => {
         </li>
         <li
           id="Contact"
-          className="menu-item px-2 py-6 "
+          className="menu-item px-2 py-6 md:py-12 "
           Link="/section/formulaire.jsx"
         >
           Contact
@@ -74,43 +76,32 @@ const MenuNav = () => {
         <li className="menu-item--small" href=""></li>
         <br />
         <div className>
-          <div className=" flex px-2  pt-4">
+          <div className=" flex px-2  pt-4 md:text-6xl md:pt-10">
     
-            <li className=" ">
-              <button>
-                <FontAwesomeIcon
-                  width={20}
-                  height={"auto"}
-                  icon={faSquareFacebook}
-                />
+            <li >
+              <button >
+                <BsFacebook width={20} height={20} id="facebook"/>
+            
               </button>
             </li>
-            <li className=" px-5">
-              <button>
-                <FontAwesomeIcon
-                  width={22}
-                  height={"20"}
-                  icon={faSquareInstagram}
-                />
+            <li className=" px-5 md:px-10">
+              <button >
+              <BsInstagram width={20} height={20} id="instagram"/>
               </button>
             </li>
-            <li className="">
+            <li >
               <button>
-                <FontAwesomeIcon width={20} height={"auto"} icon={faLinkedin} />
+              <BsLinkedin width={20} height={20} id="instagram"/>
               </button>
             </li>
-            <li className=" px-5">
+            <li className=" px-5 md:px-10">
               <button>
-                <FontAwesomeIcon
-                  width={20}
-                  height={"auto"}
-                  icon={faSquareGithub}
-                />
+              <BsGithub width={20} height={20} id="instagram"/>
               </button>
             </li>
-            <li className=" ">
+            <li>
               <button>
-                <FontAwesomeIcon width={22} height={"20"} icon={faEnvelope} />
+              <BsMailbox2 width={20} height={20} id="instagram"/>
               </button>
             </li>
           </div>
