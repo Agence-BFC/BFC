@@ -13,13 +13,10 @@ const Home = () => {
     <main className="dark:bg-black dark:text-white dark:uppercase  overflow-hidden bg-green-200">
       <Background >
       <Introduction />
-   
       </Background>
       <Services />
       <Clients />
       <Carrousel />
- 
-    
       <Footer />
     </main>
   );

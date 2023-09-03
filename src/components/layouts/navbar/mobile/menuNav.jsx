@@ -25,7 +25,7 @@ const MenuNav = () => {
 
   return (
     <Menu styles={styles} isOpen={hideMenu === true ? false : null}>
-      <div className=" flex flex-row justify-center w-full py-16 dark:hidden overflow-y- ">
+      <div className=" flex flex-row justify-center w-full py-16 dark:hidden  ">
         <button>
           <Image
             src="/images/logos/black-logo.svg"
@@ -48,7 +48,7 @@ const MenuNav = () => {
         </button>
       </div>
 
-      <ul className="text-2xl uppercase  text-amber-900 md:my-20 md:text-4xl  ">
+      <ul className="text-2xl uppercase  text-amber-900  md:text-2xl  ">
         <li
           id="L'agence"
           className="menu-item px-2 "
@@ -58,7 +58,7 @@ const MenuNav = () => {
         </li>
         <li
           id="Services"
-          className="menu-item px-2 py-6 md:py-12"
+          className="menu-item px-2 py-6 md:py-8"
           Link="/section/services.jsx"
         >
           Services
@@ -68,7 +68,7 @@ const MenuNav = () => {
         </li>
         <li
           id="Contact"
-          className="menu-item px-2 py-6 md:py-12 "
+          className="menu-item px-2 py-6 md:py-8 "
           Link="/section/formulaire.jsx"
         >
           Contact
@@ -76,7 +76,7 @@ const MenuNav = () => {
         <li className="menu-item--small" href=""></li>
         <br />
         <div className>
-          <div className=" flex px-2  pt-4 md:text-6xl md:pt-10">
+          <div className=" flex px-2  pt-4 md:text-2xl md:pt-0">
     
             <li >
               <button >
