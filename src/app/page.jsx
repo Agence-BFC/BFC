@@ -1,6 +1,5 @@
 "use client";
-import Navbar from "@/components/layouts/header/desktop";
-import NavbarMobile from "@/components/layouts/header/Mobile";
+import Header from "@/components/layouts/header";
 import Home from "@/app/home";
 import Footer from "@/components/layouts/footer";
 import Services from "./home/section/services";
@@ -19,8 +18,7 @@ export default function Page() {
 
   return (
     <>
-      <Navbar />
-      <NavbarMobile />
+      <Header />
       <Home />
       <Services />
       <Clients />

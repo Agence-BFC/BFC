@@ -1,38 +1,61 @@
-const desktop = () => {
+
+import Link from "next/link";
+import { LiaToggleOffSolid, LiaToggleOnSolid } from "react-icons/lia";
+import { useState } from "react";
+import DarkMode from "@/components/tools/darkMode";
+import Image from "next/image";
+const NavbarDesktop = () => {
+  const [showToggle, setShowToggle] = useState(false);
   return (
-    <header className="hidden lg:flex">
-      <nav className="flex flex-row w-full items-center bg-green-500 text-white lg:hidden">
+    <header>
+      <nav className="lg:grid grid-cols-4 py-5 bg-gradient-to-b from-teal-500 to-pink-400 dark:bg-gradient-to-b dark:from-black dark:to-white-500 text-white font-bungeeRegular">
+        <div className="flex flex-row justify-center w-full py-2 ">
         <div>
-          <img src="./images/logos/white-logo.svg" alt="LogoWhite"/>
+        <a href={"http://localhost:3000"}>
+          <Image src="/DevNet/public/images/logos/white-logo.svg" 
+              width={50}
+              height={50}
+              alt="Logo"/>
+              </a>
         </div>
-        <div>
-          <ul className="flex flex-row justify-ev list-none w-extra">
-            <li>
-              {" "}
-              <a href="#">L'agence</a>
+        </div>
+        <div className="col-span-2 flex flex-row justify-center py-2">
+          <ul className="flex flex-row">
+            <li className="px-4 border-r">
+              <Link href="/" className="">
+                Accueil
+              </Link>
             </li>
-            <li className="px-2">
-              {" "}
-              <a href="#">Services</a>
+            <li className="px-4 border-r">
+              <Link href="/service" className="">
+                Services
+              </Link>
             </li>
-            <li>
-              {" "}
-              <a href="#">Projets</a>
-            </li>
-            <li className="px-2">
-              {" "}
-              <a href="#">Contact</a>
-            </li>
+            <li className="px-4 border-r">
+              <Link href="/contact" className="pb-6">
+                contact
+              </Link>
+            </li> 
           </ul>
         </div>
-        <div className="flex w-full justify-right pr-4">
-          <button>Light/Dark</button>
+        <div className="flex flex-row justify-center items-center">
+          <button
+            type="button"
+            onClick={() => {
+              DarkMode();
+              setShowToggle(!showToggle);
+            }}
+          >
+            {showToggle === false ? (
+              <LiaToggleOffSolid size={35} className="text-white" />
+            ) : (
+              <LiaToggleOnSolid size={35} className="text-white" />
+            )}
+          </button>
         </div>
       </nav>
-      <nav></nav>
-      <h1>Navbar desktop</h1>
     </header>
   );
 };
 
-export default desktop;
+export default NavbarDesktop;

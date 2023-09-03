@@ -1,18 +1,13 @@
-import Navbar from "@/components/layouts/header/desktop";
-import NavbarMobile from "@/components/layouts/header/Mobile";
+import Header from "@/components/layouts/header";
 import Footer from "@/components/layouts/footer";
-import Form from "@/components/tools/form";
 import Intro from "@/app/contact/section/intro";
-
 
 const SectionContact = () => {
   return (
     <>
       <div>
-        <Navbar />
-        <NavbarMobile />
+        <Header />
         <Intro />
-        <Form />
         <Footer />
       </div>
     </>

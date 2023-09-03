@@ -2,7 +2,8 @@
 import { Carousel } from "react-responsive-carousel";
 import styles from "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from "next/image";
-export default function () {
+
+const Servyce = () => {
   return (
     <>
       <section>
@@ -50,4 +51,5 @@ export default function () {
       <div></div>
     </>
   );
-}
+};
+export default Servyce;
