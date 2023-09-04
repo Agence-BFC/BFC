@@ -48,7 +48,7 @@ const MenuNav = () => {
         </button>
       </div>
 
-      <ul className="text-2xl uppercase  text-amber-900  md:text-2xl  ">
+      <ul className="text-2xl uppercase  text-amber-900  md:text-2xl dark:text-white ">
         <li
           id="L'agence"
           className="menu-item px-2 "
