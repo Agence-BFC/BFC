@@ -1,9 +1,17 @@
-import Image from 'next/image'
+"use client";
 
-export default function Home() {
+import Navbar from "@/components/layouts/navbar";
+import Home from "./home";
+
+export default function () {
+  // useEffect(() => {
+  //   window.localStorage.setItem("mode", "dark");
+  //   console.log(window.localStorage.getItem("mode"));
+  // }, []);
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Hello version1 !</h1>
-    </main>
-  )
+    <>
+      <Navbar />
+      <Home />
+    </>
+  );
 }
