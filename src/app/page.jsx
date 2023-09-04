@@ -1,13 +1,13 @@
 "use client";
 
 import Navbar from "@/components/layouts/navbar";
-import Home from "./home";
+// import Home from "./home";
 // import Header from "@/components/layouts/header";
 import Home from "@/app/home";
 import Footer from "@/components/layouts/footer";
 // import Services from "./home/section/services";
-import Clients from "./home/section/clients";
-import Carrousel from "./home/section/carrousel";
+// import Clients from "./home/section/clients";
+// import Carrousel from "./home/section/carrousel";
 // import Formulaire from "./home/section/formulaire";
 import { useEffect } from "react";
 
@@ -26,13 +26,13 @@ export default function Page() {
       {/* <Services /> */}
       <Navbar />
       <Home />
-      <Clients />
+      {/* <Clients />
       <Carrousel />
-      <Formulaire />
+      <Formulaire /> */}
       <Footer />
     </>
   );
-}
+};
 
 // export default function () {
 
