@@ -13,7 +13,7 @@ const Services = () => {
         id="services"
       >
         <div className="">
-        <div className=" card flex flex-col  items-center rounded-md     bg-yellow-500 mx-14 md:mx-52   -z-10 pb-2 lg:mx-10    lg:my-4  hover:ease-in-out hover:duration-200 lg:hover:scale-105 ">
+        <div className=" card flex flex-col  items-center rounded-md     bg-yellow-500 mx-14 md:mx-52   -z-10 pb-2 lg:mx-14    lg:my-4  hover:ease-in-out hover:duration-200 lg:hover:scale-105  ">
           <div className=" flex flex-col contain items-center justify-center m-4 px-6 lg:pb-1 dark:mx-1  ">
             <h2 className="flex w-full justify-center pt-2  mx-5  text-amber-900 text-xl  lg:px-14  lg:text-2xl lg:items-center ">
               Création web
@@ -46,7 +46,7 @@ const Services = () => {
         </div>
         </div>
         <div className="">
-        <div className="my-6 card flex flex-col items-center rounded-md     bg-yellow-500 mx-14 md:mx-52   -z-10 pb-2  lg:mx-10    lg:my-4 hover:ease-in-out hover:duration-200 lg:hover:scale-105 ">
+        <div className="my-6 card flex flex-col items-center rounded-md     bg-yellow-500 mx-14 md:mx-52   -z-10 pb-2  lg:mx-14    lg:my-4 hover:ease-in-out hover:duration-200 lg:hover:scale-105  ">
           <div className=" flex flex-col contain items-center justify-center m-4 px-6 lg:pb-1   ">
             <h2 className="flex w-full justify-center pt-2  mx-5 text-amber-900 text-xl  lg:px-14  lg:text-2xl lg:items-center ">
               Design site
@@ -79,9 +79,9 @@ const Services = () => {
         </div>
         </div>
       <div className=""> 
-        <div className=" card flex flex-col items-center rounded-md    bg-yellow-500 mx-14 md:mx-52   -z-10 pb-2   lg:mx-10  lg:my-6  lg:mr-20 hover:ease-in-out hover:duration-200 lg:hover:scale-105 ">
-          <div className=" flex flex-col contain items-center justify-center m-4  px-6  lg:pb-1 lg:px-0   ">
-            <h2 className="flex w-full justify-center pt-2  mx-5 text-amber-900 text-xl  lg:px-14  lg:text-2xl lg:items-center dark:mx-1  ">
+        <div className=" card flex flex-col items-center rounded-md    bg-yellow-500 mx-14 md:mx-52   -z-10 pb-2   lg:mx-14  lg:my-6  lg:mr-20 hover:ease-in-out hover:duration-200 lg:hover:scale-105    ">
+          <div className=" flex flex-col contain items-center justify-center m-4  px-6  lg:pb-1 lg:px-0 ">
+            <h2 className="flex w-full justify-center pt-2  mx-5 text-amber-900 text-xl   lg:text-2xl lg:items-center dark:mx-1   ">
               Maitenance
             </h2>
             <ul className="list-disc my-6  px-2 lg:text-2xl lg:mx-10 lg:my-6 lg:pt-2 lg:dark:mx-6">
