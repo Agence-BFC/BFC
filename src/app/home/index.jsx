@@ -3,7 +3,7 @@ import Introduction from "@/app/home/section/introduction";
 import Services from "./section/services";
 import Clients from "./section/clients";
 import Carrousel from "./section/carrousel";
-import Formul from "@/components/tools/form/formul";
+// import Formul from "@/components/tools/form/formul";
 
 import Footer from "@/components/layouts/footer";
 
@@ -17,7 +17,6 @@ const Home = () => {
       <Services />
       <Clients />
       <Carrousel />
-      <Footer />
     </main>
   );
 };

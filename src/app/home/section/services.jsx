@@ -5,13 +5,9 @@ import { BsKey, BsPaintBucket, BsPen } from "react-icons/bs";
 const Services = () => {
   return (
     <>
-<<<<<<< HEAD
       <h1 className="flex flex-row justify-center py-3 my-3 text-amber-900 text-2xl md:my-4 md:mx-48 md:pt-4 lg:text-4xl lg:py-10 shadow-lg shadow-amber-800/80 mx-20 lg:mx-96 rounded-full hover:bg-gradient-to-r  ">
         Services
-=======
-      <h1 className="flex flex-row juistfy-center py-2 text-amber-900 text-2xl">
-        Services :
->>>>>>> 6b8dd7d6d4523e15bb07e7d0c61b7d534f637d11
+
       </h1>
       <section
         className="pt-4  lg:grid lg:grid-cols-3 lg:w-full lg:mx-10 lg:my-10 "
