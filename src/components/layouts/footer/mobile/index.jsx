@@ -27,6 +27,7 @@ const FooterMobile = () => {
           <br />
           Agence de marketing digital
         </span>
+        <hr className="mx-4 mt-4 mb-4 "/>
         <div className="flex flex-row justify-center py-4">
           <div className="px-8">
             <FontAwesomeIcon

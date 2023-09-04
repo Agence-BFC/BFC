@@ -12,6 +12,7 @@ import Animation from "../../animation";
 import React from "react";
 import ProgressBar from "react-scroll-progress-bar";
 import Form from "@/components/tools/form";
+import Image from "next/image";
 
 const Intro = () => {
   return (
@@ -25,21 +26,21 @@ const Intro = () => {
             <div className="hidden:lg ">
               <Animation />
             </div>
-            <div className="pr-20">
-              <h1 className=" font-bold uppercase text-4xl text-center shadow-lg shadow-cyan-500/50">
+            <div className="pr-20 ">
+              <h1 className=" font-bold uppercase text-4xl text-center shadow-lg shadow-yellow-500/50 ">
                 Contacter-nous
               </h1>
             </div>
           </div>
           <div className="text-center lg:hidden">
             <h2 className="font-bold uppercase text-2xl mt-12 mb-12 ">
-              <div className="opacity-90 overflow-x-hidden overflow-y-hidden bg-[url('/images/fond.png')]  h-1/2 lg:h-screen mx-4 bg-no-repeat bg-cover bg-left ">
+              <div className="opacity-90 overflow-x-hidden overflow-y-hidden bg-[url('/images/fond.png')]  h-1/2 lg:h-screen mx-4 bg-no-repeat bg-cover bg-left">
                 <Animation />
               </div>
             </h2>
           </div>
-          <div className="p-4 ">
-            <h1 className=" font-bold uppercase text-4xl text-center shadow-lg shadow-cyan-500/50">
+          <div className="">
+            <h1 className=" font-bold uppercase text-4xl text-center py-3 my-3 text-amber-900 md:my-4 md:mx-48 md:pt-4 lg:text-4xl lg:py-10 shadow-lg shadow-amber-800/80 lg:mx-96 rounded-full hover:bg-gradient-to-r ">
               Lancez-vous
             </h1>
           </div>
@@ -61,12 +62,15 @@ const Intro = () => {
                 </div>
               </div>
             </div>
-            <div data-aos="fade-left" className="contain-blur ">
+            <div className="mt-12">
+
+            <div data-aos="fade-left" className="contain-blur mx-4 ">
               <img className="" src="/images/free.jpg" alt="devis" />
             </div>
+            </div>
           </div>
-          <hr className="mx-4 mt-12" />
-          <h1 className=" font-bold uppercase text-2xl shadow-lg shadow-cyan-500/50 text-center">
+          <hr className="mx-4 mt-12 mb-12"/>
+          <h1 className=" font-bold uppercase text-2xl  text-center py-3 my-3 text-amber-900  md:my-4 md:mx-48 md:pt-4 lg:text-4xl lg:py-10 shadow-lg shadow-amber-800/80  lg:mx-96 rounded-full hover:bg-gradient-to-r ">
               Nos horaires d'ouvertures
             </h1>
           <div
@@ -88,7 +92,7 @@ const Intro = () => {
             </p>
           </div>
           <hr className="mx-4 mt-12 mb-12" />
-          <h3 className="font-bold uppercase text-2xl text-center shadow-lg shadow-cyan-500/50">
+          <h3 className="font-bold uppercase text-2xl text-center py-3 my-3 text-amber-900 md:my-4 md:mx-48 md:pt-4 lg:text-4xl lg:py-10 shadow-lg shadow-amber-800/80  lg:mx-96 rounded-full hover:bg-gradient-to-r  ">
             nos moyens de contact
           </h3>
           <div className=" mt-12 flex flex-col text-center items-center lg:grid lg:grid-cols-3">
@@ -130,7 +134,7 @@ const Intro = () => {
 
           <hr className="mx-4 mb-12" />
           <div className="p-4 ">
-            <h2 className=" font-bold uppercase text-4xl text-center shadow-lg shadow-cyan-500/50">
+            <h2 className=" font-bold uppercase text-4xl text-center spy-3 my-3 text-amber-900  md:my-4 md:mx-48 md:pt-4 lg:text-4xl lg:py-10 shadow-lg shadow-amber-800/80 lg:mx-96 rounded-full hover:bg-gradient-to-r ">
               Formulaire
             </h2>
           </div>

@@ -41,8 +41,8 @@ const FooterDesktop = () => {
             </a>
           </li>
         </ul>
-
-        <section className=" grid grid-cols-3">
+        <hr className="w-3/6"/>
+        <section className=" grid grid-cols-3 bg-green-800">
           <div className="flex flex-row justify-center">
             <Image
               src="/images/logos/logo-black.svg"
@@ -87,10 +87,7 @@ const FooterDesktop = () => {
             </span>
           </div>
         </section>
-        <div className="py-6 text-xs flex flex-col items-center bg-black text-white w-full">
-          <Link href="">Mentions légales</Link>
-          <Link href="">Politique de confidentialité</Link>
-        </div>
+      
       </footer>
     </>
   );

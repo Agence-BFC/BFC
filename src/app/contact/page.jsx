@@ -5,7 +5,7 @@ import Intro from "@/app/contact/section/intro";
 const SectionContact = () => {
   return (
     <>
-      <div>
+      <div className="bg-green-200">
         <Header />
         <Intro />
         <Footer />

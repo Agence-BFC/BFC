@@ -47,7 +47,7 @@ const Form = () => {
 
         <div className="flex flex-row justify-center py-6">
           <button
-            className="contain-blue p"
+            className="contain-blue  flex flex-row justify-center bg-green-800 my-3  rounded-full hover-bg-green-500 uppercase px-3 py-3 w-36 hover:text-white hover:transition hover:ease-in-out hover:duration-200  lg:text-lg lg:w-48 dark:hover:bg-amber-950"
             type="button"
             onClick={() => SubmitForm()}
           >
