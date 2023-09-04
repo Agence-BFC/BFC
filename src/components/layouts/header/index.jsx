@@ -6,7 +6,7 @@ import NavbarMobile from "./mobile";
 const Header = () => {
   return (
     <>
-    <div className="max-lg:hidden ">
+    <div className="hidden lg:flex">
       <NavbarDesktop />
     </div>
     <div className="lg:hidden">

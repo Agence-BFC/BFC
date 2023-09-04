@@ -1,4 +1,4 @@
-import Header from "@/components/layouts/header";
+import Navbar from "@/components/layouts/Navbar";
 import Footer from "@/components/layouts/footer";
 import Intro from "@/app/contact/section/intro";
 
@@ -6,7 +6,7 @@ const SectionContact = () => {
   return (
     <>
       <div className="bg-green-200">
-        <Header />
+        <Navbar />
         <Intro />
         <Footer />
       </div>

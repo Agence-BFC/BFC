@@ -49,30 +49,33 @@ const MenuNav = () => {
       </div>
 
       <ul className="text-2xl uppercase  text-amber-900  md:text-2xl dark:text-white ">
+        <a href="http://localhost:3000/">
         <li
           id="L'agence"
           className="menu-item px-2 "
-          Link="/section/introduction.jsx"
+         
         >
           L'Agence
         </li>
+        </a>
+        <a href="http://localhost:3000/services">
         <li
           id="Services"
           className="menu-item px-2 py-6 md:py-8"
-          Link="/section/services.jsx"
+         
         >
           Services
         </li>
-        <li id="Projets" className="menu-item px-2" Link="/projets">
-          Projets
-        </li>
+        </a>
+        <a href="http://localhost:3000/contact">
         <li
           id="Contact"
-          className="menu-item px-2 py-6 md:py-8 "
-          Link="/section/formulaire.jsx"
+          className="menu-item px-2  md:py-8 "
+          Link href="/section/formulaire.jsx"
         >
           Contact
         </li>
+        </a>
         <li className="menu-item--small" href=""></li>
         <br />
         <div className>
