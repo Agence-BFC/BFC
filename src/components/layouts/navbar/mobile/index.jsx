@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import MenuNav from "./menuNav";
-import DarkMode from "./darkMode";
+import DarkMode from "../../../tools/darkMode";
 import { BsToggleOff, BsToggleOn } from "react-icons/bs";
 import { useState } from "react";
 

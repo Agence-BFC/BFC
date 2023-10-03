@@ -1,6 +1,6 @@
 "use client";
 
-import DarkMode from "../mobile/darkMode";
+import DarkMode from "../../../tools/darkMode";
 import React from "react";
 import { useState } from "react";
 import { BsToggleOff, BsToggleOn } from "react-icons/bs";
