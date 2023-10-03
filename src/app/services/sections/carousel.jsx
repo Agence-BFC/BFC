@@ -17,12 +17,11 @@ const Carousell = () => {
                   <h1 className="uppercase text-lg">Crée un site web</h1>
                 </div>
                 <div className=" bg-white mx-8  pb-8">
-                  
                   <p className="text-xs flex items-start justify-start mb-14 text-left p-4">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Eligendi voluptatum, sapiente corporis, atque.
                   </p>
-                
+
                   <div>
                     <div className="bg-[url('/images/background/photo.jpg')] px-10 py-14 mx-4 "></div>
                   </div>
@@ -42,7 +41,7 @@ const Carousell = () => {
               <p className="">
                 *je suis un paragraphe représentant*
                 <br />
-                "crée un site web"
+                &apos;crée un site web&apos;
               </p>
               <div className="flex flex-row justify-center pt-10">
                 <button className=" flex flex-row  border-4 border-green-500 bg justify-center">
@@ -58,7 +57,7 @@ const Carousell = () => {
               <p className="">
                 *je suis un paragraphe représentant*
                 <br />
-                "crée un site web"
+                &apos;crée un site web&apos;
               </p>
               <div className="flex flex-row justify-center pt-10">
                 <button className=" flex flex-row  border-4 border-green-500 bg justify-center">
@@ -80,7 +79,7 @@ const Carousell = () => {
               <p className="">
                 *je suis un paragraphe représentant*
                 <br />
-                "crée un site web"
+                &apos;crée un site web&apos;
               </p>
               <div className="flex flex-row justify-center pt-10">
                 <button className=" flex flex-row  border-4 border-green-500 bg justify-center">
@@ -96,7 +95,7 @@ const Carousell = () => {
               <p className="">
                 *je suis un paragraphe représentant*
                 <br />
-                "crée un site web"
+                &apos;crée un site web&apos;
               </p>
               <div className="flex flex-row justify-center pt-10">
                 <button className=" flex flex-row  border-4 border-green-500  justify-center">
@@ -112,7 +111,7 @@ const Carousell = () => {
               <p className="">
                 *je suis un paragraphe représentant*
                 <br />
-                "crée un site web"
+                &apos;crée un site web&apos;
               </p>
               <div className="flex flex-row justify-center pt-10">
                 <button className=" flex flex-row  border-4 border-green-500 bg justify-center">
@@ -134,7 +133,7 @@ const Carousell = () => {
               <p className="">
                 *je suis un paragraphe représentant*
                 <br />
-                "crée un site web"
+                &apos;crée un site web&apos;
               </p>
               <div className="flex flex-row justify-center pt-10">
                 <button className=" flex flex-row  border-4 border-green-500 bg justify-center">
@@ -150,7 +149,7 @@ const Carousell = () => {
               <p className="">
                 *je suis un paragraphe représentant*
                 <br />
-                "crée un site web"
+                &apos;crée un site web&apos;
               </p>
               <div className="flex flex-row justify-center pt-10">
                 <button className=" flex flex-row  border-4 border-green-500 bg justify-center">
@@ -166,7 +165,7 @@ const Carousell = () => {
               <p className="">
                 *je suis un paragraphe représentant*
                 <br />
-                "crée un site web"
+                &apos;crée un site web&apos;
               </p>
               <div className="flex flex-row justify-center pt-10">
                 <button className=" flex flex-row  border-4 border-green-500 bg justify-center">

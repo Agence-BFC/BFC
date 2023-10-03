@@ -71,7 +71,7 @@ const Intro = () => {
           </div>
           <hr className="mx-4 mt-12 mb-12"/>
           <h1 className=" font-bold uppercase text-2xl  text-center py-3 my-3 text-amber-900  md:my-4 md:mx-48 md:pt-4 lg:text-4xl lg:py-10 shadow-lg shadow-amber-800/80  lg:mx-96 rounded-full hover:bg-gradient-to-r ">
-              Nos horaires d'ouvertures
+              Nos horaires d&apos;ouvertures
             </h1>
           <div
             data-aos="flip-up"

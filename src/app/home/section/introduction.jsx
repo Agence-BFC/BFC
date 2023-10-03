@@ -27,7 +27,7 @@ const Introduction = () => {
               Nous sommes une équipe composé de 3 personnes. Chloé notre CTO
               ainsi que Bollo et Florian les développeurs. Notre agence aime les
               nouveaux challenges et sera ravis de vous aider dans votre projet
-              web.Cliquez sur nos portfolios en-dessous pour nous connaitre d'avantage.
+              web.Cliquez sur nos portfolios en-dessous pour nous connaitre d&apos;avantage.
             </p>
 
             <div className="flex flex-row justify-center items-center text-xl lg:text-4xl lg:flex lg:items-center lg:my-10 ">
