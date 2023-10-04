@@ -61,7 +61,7 @@ const Serv = () => (
           ></Image>
           <div id="d1">
             <p id="p1" className="hide text-xs">
-              Découvrez l'art de la création web avec nous : Nous transformons
+              Découvrez l art de la création web avec nous : Nous transformons
               vos idées en sites web exceptionnels. Notre expertise, votre
               vision. Ensemble, construisons une présence en ligne qui va
               au-delà de vos attentes pour concrétiser vos rêves digitaux.
