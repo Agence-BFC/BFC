@@ -17,12 +17,11 @@ var Carousel = require("react-responsive-carousel").Carousel;
 const Serv = () => (
   <>
     <section className="bg-[#BBF7D0]">
-
       {/* 2EME VERSION QUI POURRAIS CORRESPONDRE AUX ATTENTES DU PROJET DE LA PAGE SERVICES  */}
 
-      <div className="flex flex-row pt-24 justify-center items-center mx-6  drop-shadow-xl lg:grid lg:grid-cols-3 lg:items-center">
+      <div className="flex flex-row lg:mt-10 pt-24 justify-center items-center mx-6  drop-shadow-xl lg:grid lg:grid-cols-3 lg:items-center">
         <div>
-          <a href="/contact">
+          <a href="http://localhost:3000/contact">
             <button
               className=" shadow-lg shadow-amber-800/80 border-2 rounded-full px-2 border-amber-800"
               id="d1"
@@ -32,27 +31,49 @@ const Serv = () => (
           </a>
         </div>
 
-        <div className="px-6">
-          <button
-            className=" shadow-lg shadow-amber-800/80 border-2 rounded-full px-2 border-amber-800 "
-            id="d2"
-          >
-            Maitenance
-          </button>
+        {/* <div className=" card m-6 flex flex-col items-center justify-center md:mx-28  lg:w-9/12  lg:pb-10 dark:hidden  ">
+          <a href="c">
+            <Image
+              src="/images/logos/black-logo.svg"
+              width={300}
+              height={200}
+              alt="logo"
+              className="  py-2  md:px-2   "
+            />
+          </a>
+        </div> */}
+
+        <div>
+          <a href="http://localhost:3000/contact">
+            <button
+              className=" shadow-lg shadow-amber-800/80 border-2 rounded-full px-2 border-amber-800"
+              id="d1"
+            >
+              Services
+            </button>
+          </a>
         </div>
-        <button className="shadow-lg shadow-amber-800/80 border-2 rounded-full px-2 border-amber-800">
-          Design
-        </button>
+
+        <div>
+          <a href="http://localhost:3000/contact">
+            <button
+              className=" shadow-lg shadow-amber-800/80 border-2 rounded-full px-2 border-amber-800"
+              id="d1"
+            >
+              Désign
+            </button>
+          </a>
+        </div>
       </div>
 
-      <div className=" my-6 card flex flex-col items-center rounded-md pt-4 opacity-90 bg-[#EEC23980] mx-8 md:mx-52    -z-10 pb-2   lg:px-10 lg:mx-16  lg:my-6  ">
+      <div className="my-6 card flex flex-col items-center rounded-md pt-4 opacity-90 bg-[#EEC23980] mx-8 md:mx-52 -z-10 pb-2 lg:px-10 lg:items-center lg:mx-80   ">
         <h1 className="text-xl">Crétation de sites</h1>
         <div>
           <button className="text-xs flex justify-center pt-8 font-bold">
             CRÉATION DE SITES WEB
           </button>
         </div>
-        <div className=" flex flex-col contain bg-[#EEC23980] pt-1 items-center justify-center  px-8 m-4 lg:pb-1 lg:px-12  ">
+        <div className=" flex flex-col contain bg-[#EEC23980] pt-1 items-center justify-center  px-8 m-4 md:mx-28  lg:w-9/12  lg:pb-10 dark:hidden ">
           <Image
             src="/images/logos/logo-black.svg"
             width={150}
@@ -70,7 +91,7 @@ const Serv = () => (
           <h2 className="underline mt-2">tarifs:</h2>
           <p className="mt-1 text-xs ">A partir de : 20 000€</p>
           <div className="lg:flex lg:flex-row">
-            <a href="/contact">
+            <a href="http://localhost:3000/contact">
               <button
                 className=" flex flex-row justify-center my-2 underline lg:bg-green-800 lg:opacity-90 p-1  lg:rounded lg:placeholder:hover-bg-green-500 uppercase  hover:text-white hover:transition hover:ease-in-out hover:duration-200  lg:text-lg lg:w-48 dark:hover:bg-amber-950 "
                 type="button"
@@ -91,7 +112,7 @@ const Serv = () => (
             </button>
           </div>
         </div>
-        <div className=" flex flex-col contain bg-[#EEC23980] pt-1 items-center justify-center  px-8 m-4 lg:pb-1 lg:px-12  ">
+        <div className=" flex flex-col contain bg-[#EEC23980] pt-1 items-center justify-center  px-8 m-4 md:mx-28  lg:w-9/12  lg:pb-10 dark:hidden  ">
           <Image
             src="/images/logos/logo-black.svg"
             width={150}
@@ -108,10 +129,10 @@ const Serv = () => (
           </div>
           <h2 className="underline mt-2">tarifs:</h2>
           <p className="mt-1 text-xs ">A partir de : 20 000€</p>
-          <div className="lg:flex lg:flex-row">
-            <a href="/contact">
+          <div className="lg:flex lg:flex-row lg:mt-4">
+            <a href="http://localhost:3000/contact">
               <button
-                className=" flex flex-row justify-center my-2 underline lg:bg-green-800 lg:opacity-90 p-1  lg:rounded lg:placeholder:hover-bg-green-500 uppercase  hover:text-white hover:transition hover:ease-in-out hover:duration-200  lg:text-lg lg:w-48 dark:hover:bg-amber-950 "
+                className=" flex flex-row justify-center my-2 underline   lg:bg-green-800 lg:opacity-90 p-1  lg:rounded lg:placeholder:hover-bg-green-500 uppercase  hover:text-white hover:transition hover:ease-in-out hover:duration-200  lg:text-lg lg:w-48 dark:hover:bg-amber-950 "
                 type="button"
                 value="En savoir +"
               >
@@ -130,7 +151,7 @@ const Serv = () => (
             </button>
           </div>
         </div>
-        <div className=" flex flex-col contain bg-[#EEC23980] pt-1 items-center justify-center  px-8 m-4 lg:pb-1 lg:px-12  ">
+        <div className=" flex flex-col contain bg-[#EEC23980] pt-1 items-center justify-center  px-8 m-4 md:mx-28  lg:w-9/12  lg:pb-10 dark:hidden  ">
           <Image
             src="/images/logos/logo-black.svg"
             width={150}
@@ -147,17 +168,17 @@ const Serv = () => (
           </div>
           <h2 className="underline mt-2">tarifs:</h2>
           <p className="mt-1 text-xs ">A partir de : 20 000€</p>
-        <div className="lg:flex lg:flex-row">
-          <a href="/contact">
-            <button
-              className=" flex flex-row justify-center my-2 underline lg:bg-green-800 lg:opacity-90 p-1  lg:rounded lg:placeholder:hover-bg-green-500 uppercase  hover:text-white hover:transition hover:ease-in-out hover:duration-200  lg:text-lg lg:w-48 dark:hover:bg-amber-950 "
-              type="button"
-              value="En savoir +"
-            >
-              <h2>Demander nous un devis </h2>
-            </button>
-          </a>
-        </div>
+          <div className="lg:flex lg:flex-row">
+            <a href="http://localhost:3000/contact">
+              <button
+                className=" flex flex-row justify-center my-2 underline lg:bg-green-800 lg:opacity-90 p-1  lg:rounded lg:placeholder:hover-bg-green-500 uppercase  hover:text-white hover:transition hover:ease-in-out hover:duration-200  lg:text-lg lg:w-48 dark:hover:bg-amber-950 "
+                type="button"
+                value="En savoir +"
+              >
+                <h2>Demander nous un devis </h2>
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </section>
